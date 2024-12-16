@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/newspaper"
+        android:title="News"
+
+        />
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/message"
+        android:title="Chats"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/notfication"
+        android:icon="@drawable/wallet_3"
+        android:title="Notifications"
+
+        app:showAsAction="ifRoom|withText" />
+
+
+
+</menu>

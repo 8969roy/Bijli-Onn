@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "474966134457",
+    "firebase_url": "https://bijlionn-default-rtdb.firebaseio.com",
+    "project_id": "bijlionn",
+    "storage_bucket": "bijlionn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474966134457:android:f1fba8b68ae11c86cb9568",
+        "android_client_info": {
+          "package_name": "com.raytechinnovators.bijlionn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474966134457-pq5ddehfe2kbo1pk2pqu2p0kv1k68092.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3dSjDFNXUT8JG9HMBhpJHN2lLO5-LCzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474966134457-pq5ddehfe2kbo1pk2pqu2p0kv1k68092.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<!-- res/drawable/shadow.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/ColorPrimary"
+        android:endColor="@color/purple_500"
+        android:angle="90"/>
+    <corners android:radius="2dp"/>
+</shape>

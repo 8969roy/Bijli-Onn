@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/sender_shape"
+        android:orientation="vertical">
+
+        <!-- ImageView for displaying images -->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/senderImageCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="#E7FFDB"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:id="@+id/senderImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                android:minWidth="100dp"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                app:srcCompat="@drawable/mobile_phone" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <!-- VideoView for displaying videos -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/senderVideoThumbnailCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="#E7FFDB"
+                app:cardCornerRadius="16dp">
+
+                <ImageView
+                    android:id="@+id/senderVideoThumbnail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="false"
+                    android:minWidth="100dp"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/play_button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/play_button" />
+            </androidx.cardview.widget.CardView>
+            <!-- Play Button Overlay -->
+
+
+        </FrameLayout>
+
+
+
+
+
+        <TextView
+            android:id="@+id/senderMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="6dp"
+            android:maxWidth="280dp"
+            android:minWidth="110dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="2dp"
+            android:text="Hiiiiiiiiii"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/senderTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/receiverMessage"
+            android:layout_alignParentEnd="false"
+            android:layout_gravity="end"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="2dp"
+            android:paddingStart="5dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="2dp"
+            android:text="3:00 PM"
+            android:textColor="@color/unselected_icon_color"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

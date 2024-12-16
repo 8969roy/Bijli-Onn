@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF03DAC5</color>
+    <color name="green_500">#FF03DAC5</color>
+    <color name="purple_700">#FF03DAC5</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ColorPrimary">#019D91</color>
+    <color name="purple_500">#FF03DAC5</color>
+    <color name="btn_color">#FF735C</color>
+    <color name="edit_text_color">#FFD6CF</color>
+    <color name="hint_text_color">#D4D4D4</color>
+    <color name="actionBarTitleColor">#FFFFFF</color>
+    actionBarTitleColor
+
+
+
+
+
+        <color name="light_green">#E9F3F2</color>
+
+        <color name="selectedTabColor">#FFFFFFFF</color>
+        <color name="unselectedTabColor">#EAF4F3</color>
+        <color name="unselected_icon_color">#FF49454F</color>
+        <color name="dark_green">#B0D9D4</color>
+        <color name="shimmer_color">#D0D0D1</color>
+
+        //#FFBB86FC
+
+
+
+    </resources>

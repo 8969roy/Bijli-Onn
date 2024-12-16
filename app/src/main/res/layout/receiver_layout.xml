@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/reciever_shape"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/receiverImageCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:id="@+id/receiverImage"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                app:srcCompat="@drawable/mobile_phone" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/receiverVideoThumbnailCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:id="@+id/receiverVideoThumbnail"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:adjustViewBounds="false"
+                android:minWidth="100dp"
+                android:padding="8dp"
+                android:scaleType="centerCrop"
+                android:visibility="gone" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <TextView
+            android:id="@+id/receiverMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="6dp"
+            android:maxWidth="280dp"
+            android:minWidth="110dp"
+            android:paddingLeft="4dp"
+            android:paddingBottom="2dp"
+            android:text="Expresso is a little tool to edit texts and improve your writing style. It will teach you to express your"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/receiverTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/receiverMessage"
+            android:layout_gravity="end"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="2dp"
+            android:paddingStart="5dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="2dp"
+            android:text="3:00 PM"
+            android:textColor="@color/unselected_icon_color"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

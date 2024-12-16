@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="Account">
+        <State />
+      </entry>
+      <entry key="Chatting">
+        <State />
+      </entry>
+      <entry key="OTPActivity">
+        <State />
+      </entry>
+      <entry key="admin">
+        <State />
+      </entry>
+      <entry key="app">
+        <State>
+          <targetsSelectedWithDialog>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\jason\.android\avd\Chotu.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetsSelectedWithDialog>
+        </State>
+      </entry>
+      <entry key="test">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>

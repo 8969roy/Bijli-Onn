@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <!-- Base application theme -->
+        <style name="MyTabLayoutStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/ColorPrimary</item>
+            <item name="colorPrimaryDark">@color/teal_200</item>
+            <item name="colorAccent">@color/purple_200</item>
+        </style>
+
+        <!-- Custom style for TabLayout -->
+        <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+            <!-- Customize tab indicator color -->
+            <item name="tabIndicatorColor">@color/white</item>
+            <!-- Customize tab text color -->
+            <item name="tabTextColor">@color/unselectedTabColor</item>
+            <!-- Customize selected tab text color -->
+            <item name="tabSelectedTextColor">@color/selectedTabColor</item>
+            <!-- Customize tab background color -->
+            <item name="tabBackground">@drawable/tab_background</item>
+        </style>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/teal_200</item>
+        <item name="colorAccent">@color/purple_200</item>
+
+        <!-- Specify the actionBarTheme -->
+        <item name="actionBarTheme">@style/MyActionBarTheme</item>
+    </style>
+
+    <!-- Custom ActionBar theme -->
+    <style name="MyActionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Customize ActionBar attributes here -->
+        <!-- For example, changing the color of the title text -->
+        <item name="android:titleTextColor">@color/actionBarTitleColor</item>
+        <!-- Or changing the background color of the ActionBar -->
+        <item name="android:background">@color/teal_200</item>
+        <!-- You can customize other attributes as well -->
+    </style>
+
+
+    </resources>
+

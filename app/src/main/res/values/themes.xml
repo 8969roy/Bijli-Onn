@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BijliOnn" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="rippleColor">@color/ripple_color</item>
+
+
+    </style>
+
+    <style name="Theme.BijliOnn" parent="Base.Theme.BijliOnn">
+        <item name="rippleColor">@color/ripple_color</item>
+
+    </style>
+
+    <style name="Theme.SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowNoDisplay">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+
+    <style name="Base.Theme.BijliOnn.Ads_native" >
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">@drawable/ad_icon_native</item>
+        <item name="android:paddingLeft">1.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">13.0px</item>
+        <item name="android:minHeight">13.0px</item>
+        <item name="android:text">AD</item>
+    </style>
+
+</resources>

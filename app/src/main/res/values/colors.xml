@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF03DAC5</color>
+    <color name="purple_500">#FF03DAC5</color>
+    <color name="purple_700">#FF03DAC5</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="skywhite">#E9F3F2</color>
+    <color name="gnt_test_background_color">#00F4F4F4</color>
+    <color name="gnt_test_background_color_2">#00A3A3A3</color>
+    <color name="gnt_black">#000000</color>
+    <color name="gnt_white">#FFFFFF</color>
+    <color name="gnt_red">#FF0000</color>
+    <color name="gnt_green">#00FF00</color>
+    <color name="gnt_blue">#4285f4</color>
+    <color name="gnt_ad_green">#3A6728</color>
+    <color name="text_grey">#747679</color>
+    <color name="gnt_gray">#808080</color>
+    <color name="gnt_outline">#E0E0E0</color>
+    <color name="splash_background">#FFFFFF</color> <!-- Replace #FFFFFF with your splash background color -->
+    <color name="ColorPrimary">#019D91</color>
+    <color name="green">#00C853</color>
+    <color name="btn_color">#FF735C</color>
+    <color name="edit_text_color">#FFD6CF</color>
+    <color name="hint_text_color">#D4D4D4</color>
+    <color name="green_500">#FF03DAC5</color>
+    <color name="status">#E9F3F2</color>
+    <color name="game_status_bar">#556EE8</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="gray">#808080</color>
+    <color name="btn_gray">#D0D4DC</color>
+    <color name="btn_green">#00C853</color>
+    <color name="button_background">#007BFF</color>
+
+    <color name="splash_navigation_bar_color">#FAFAFA</color>
+
+
+    <color name="navigation_bar_color">#E9F3F2</color>
+    <color name="set_bar_color">#FEF7FF</color>
+    <color name="dialog_white">#F2F2F2</color>
+        <color name="light_green">#E9F3F2</color>
+    <color name="ripple_color">#FF5722</color> <!-- Example ripple color -->
+        <color name="selectedTabColor">#FFFFFFFF</color>
+        <color name="unselectedTabColor">#EAF4F3</color>
+        <color name="unselected_icon_color">#FF49454F</color>
+        <color name="dark_green">#B0D9D4</color>
+        <color name="shimmer_color">#D0D0D1</color>
+
+
+        //#FFBB86FC
+
+    </resources>

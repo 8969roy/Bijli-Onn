@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="image_view_show" type="id" />
+    <item name="headerLayout" type="id" />
+    <item name="cardView" type="id" />
+    <item name="text_view_text" type="id" />
+    <item name="news_place_img" type="id" />
+    <item name="news_time_img" type="id" />
+    <item name="text_view_timestamp" type="id" />
+    <item name="text_view_count" type="id" />
+    <item name="news_seen_img" type="id" />
+</resources>
